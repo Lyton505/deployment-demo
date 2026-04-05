@@ -1,0 +1,95 @@
+/* ── Reset ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #0f0f13;
+  color: #e8e8f0;
+  min-height: 100vh;
+}
+
+/* ── Page layout ── */
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ── Header ── */
+.header {
+  text-align: center;
+  padding: 3.5rem 0 2.5rem;
+}
+
+.logo {
+  width: 72px;
+  height: 72px;
+  margin-bottom: 1rem;
+}
+
+.header h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.4rem;
+}
+
+.subtitle {
+  color: #7a7a96;
+  font-size: 1rem;
+}
+
+/* ── Main ── */
+.main {
+  flex: 1;
+  padding: 1rem 0 3rem;
+}
+
+/* NOTE: class is .grid — App.jsx references .step-grid (BUG 3) */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+/* ── Card ── */
+.card {
+  background: #1c1c26;
+  border: 1px solid #2a2a38;
+  border-radius: 10px;
+  padding: 1.25rem;
+}
+
+.step-num {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #8b5cf6;
+  margin-bottom: 0.5rem;
+}
+
+.card h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: monospace;
+  margin-bottom: 0.35rem;
+}
+
+.card p {
+  font-size: 0.85rem;
+  color: #7a7a96;
+  line-height: 1.5;
+}
+
+/* ── Footer ── */
+.footer {
+  border-top: 1px solid #2a2a38;
+  padding: 1.25rem 0;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #7a7a96;
+}

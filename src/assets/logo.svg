@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" fill="none">
+  <rect width="72" height="72" rx="16" fill="#1c1c26"/>
+  <!-- rocket body -->
+  <path d="M36 12 C36 12 48 22 48 38 L36 46 L24 38 C24 22 36 12 36 12Z" fill="#8b5cf6"/>
+  <!-- window -->
+  <circle cx="36" cy="30" r="5" fill="#0f0f13" stroke="#a78bfa" stroke-width="1.5"/>
+  <!-- fins -->
+  <path d="M24 38 L18 48 L26 44Z" fill="#6d28d9"/>
+  <path d="M48 38 L54 48 L46 44Z" fill="#6d28d9"/>
+  <!-- flame -->
+  <ellipse cx="36" cy="48" rx="5" ry="7" fill="#ec4899" opacity="0.85"/>
+  <ellipse cx="36" cy="50" rx="3" ry="4" fill="#f9a8d4" opacity="0.7"/>
+</svg>

@@ -1,7 +1,7 @@
 // BUG 1: wrong import path — file is logo.svg, not Logo.svg
 // Mac filesystems are case-insensitive so this works locally,
 // but Vercel runs on Linux which IS case-sensitive → build fails
-import logo from './assets/Logo.svg'
+import logo from './assets/logo.svg'
 import './App.css'
 
 const steps = [
